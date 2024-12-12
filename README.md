@@ -16,6 +16,9 @@
 - [ ] Make Resume Video < 3mins
 - [ ] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
 - [ ] Mention what I can do for jobs/pitch
+- [ ] Change name of Repo to make it represent my portfolio
+- [ ] Change File path in local machine, make it easier to find
+- [ ] Update Aspecta ID profile
 
 # Setup
 
