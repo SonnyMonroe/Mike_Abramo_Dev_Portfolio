@@ -1,7 +1,7 @@
 # TODO
 
 - [ ] Deploy Site on Vercel
-- [ ] Change Content Writing to be personalized
+- [x] Change Content Writing to be personalized
 - [ ] Make Video for Demo
 - [ ] Make Footer more stylish
 - [ ] Make Header better

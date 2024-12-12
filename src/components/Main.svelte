@@ -6,10 +6,10 @@
 			name: 'Smoljames Store',
 			icon: 'fa-solid fa-cart-shopping',
 			description:
-				'Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'
+				'Smoljames Store is a merchandising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'
 		},
 		{
-			name: 'Utlimate Todos',
+			name: 'Ultimate Todos',
 			icon: 'fa-solid fa-list-check',
 			description:
 				'Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.'
@@ -25,19 +25,19 @@
 	let benefits = [
 		{
 			metric: '10x',
-			name: 'a self taught developer',
+			name: 'a self-taught blockchain developer',
 			description:
-				'I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.'
+				'Growing up in Boston, a city known for its revolutionary history and innovation, I’ve been inspired to forge my own path in the blockchain space. As a self-taught developer, I began with the basics of HTML, CSS, and JavaScript, and have since evolved into a full-stack blockchain developer. Just as the founding fathers laid the groundwork for a new nation, I aim to contribute to the foundation of a decentralized future by continuously expanding my skills and knowledge.'
 		},
 		{
-			name: 'a product design & UX finatic',
+			name: 'startup co-founder',
 			description:
-				'Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.'
+				'I co-founded <a href="https://www.lightningbounties.com" target="_blank"><span class="text-violet-400">Lightning Bounties</a></span> alongside <a href="https://www.linkedin.com/in/willsutton17/" target="_blank"><span class="text-violet-400">Will Sutton</a></span>, <a href="https://www.linkedin.com/in/jegamboafuentes/" target="_blank"><span class="text-violet-400">Enrique Gamboa</a></span>, and <a href="https://www.linkedin.com/in/kononovp/" target="_blank"> <span class="text-violet-400">Pavel Kononov</a></span>. Our platform revolutionizes open-source development by connecting GitHub workflows with instant Bitcoin payments via the Lightning Network. We empower developers worldwide to earn immediate rewards while helping organizations resolve issues faster and more efficiently.'
 		},
 		{
-			name: 'an excellent communicator',
+			name: 'a crypto advocate & educator',
 			description:
-				"Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."
+				'I am passionate about simplifying complex blockchain concepts to help others understand and leverage crypto for financial freedom. Through <a href="https://blog.lightningbounties.com/" target="_blank"><span class="text-violet-400"> writing,</span> <a href="https://youtu.be/yxv3VpxuIFU?si=v3vEqRq9GkumMETQ" target="_blank"><span class="text-violet-400"> public speaking,</span> and <a href="https://youtu.be/IYmS16ruXp8?feature=shared" target="_blank"> <span class="text-violet-400">community engagement,</span> I aim to empower individuals to explore the transformative potential of decentralized technologies. By breaking down barriers to entry, I strive to inspire curiosity and enable others to confidently navigate the Web3 space.'
 		}
 	];
 </script>
@@ -66,21 +66,6 @@
 		<div class="relative shadow-2xl grid place-items-center">
 			<img src={'images/profile.png'} alt="Zetane Engine" class="object-cover z-[2] max-h-[70vh]" />
 		</div>
-		<!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
-            <div
-                class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
-            >
-                <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
-                />
-            </div>
-
-            <img
-                src={"images/zetane-engine.jpeg"}
-                alt="Zetane Engine"
-                class="w-full h-full object-cover z-[2]"
-            />
-        </div> -->
 	</section>
 	<section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
 		<div class="flex flex-col gap-2 text-center">
@@ -100,7 +85,7 @@
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
 			<Step step={steps[0]}>
 				<p>
-					Smoljames Store is a a merchanising store created with <strong class="text-violet-400"
+					Smoljames Store is a a merchandising store created with <strong class="text-violet-400"
 						>Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
 					> Commerce.js is a product CMS and Stripe is used for all transaction handling.
 				</p>
@@ -128,7 +113,6 @@
 		id="about"
 		class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
 	>
-		<!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
 		<div
 			class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
 		>
@@ -140,21 +124,6 @@
 		<p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
 		<div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
 			{#each benefits as benefit, index}
-				<!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
 				<div class="flex gap-6 sm:gap-8">
 					<p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
 						0{index + 1}
@@ -163,7 +132,7 @@
 						<h3 class="text-2xl sm:text-3xl md:text-5xl">
 							{benefit.name}
 						</h3>
-						<p>{benefit.description}</p>
+						<p>{@html benefit.description}</p>
 					</div>
 				</div>
 			{/each}
@@ -212,7 +181,7 @@
 					</tr>
 					<tr class="border-t border-solid border-slate-200">
 						<td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-							>Progamming Ability</td
+							>Programming Ability</td
 						>
 						<td><i class="fa-solid fa-check text-slate-500" /></td>
 						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
