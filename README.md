@@ -1,3 +1,24 @@
+# TODO
+
+- [ ] Deploy Site on Vercel
+- [ ] Change Content Writing to be personalized
+- [ ] Make Video for Demo
+- [ ] Make Footer more stylish
+- [ ] Make Header better
+- [ ] Write Documentation
+- [ ] Add Lightning Bounties Content / Assets
+- [ ] Add Bounty on Things I need Help On
+- [ ] Add Deign Assets
+- [ ] Change Projects Section
+- [ ] Credit https://github.com/jamezmca
+- [ ] Get Better Profile Image Main
+- [ ] Add Section Where I was mentioned: startup day, hackathons, lightning bounties
+- [ ] Make Resume Video < 3mins
+- [ ] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
+- [ ] Mention what I can do for jobs/pitch
+
+# Setup
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
