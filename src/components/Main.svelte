@@ -3,20 +3,20 @@
 
 	let steps = [
 		{
-			name: 'Smoljames Store',
-			icon: 'fa-solid fa-cart-shopping',
+			name: 'Lightning Bounties',
+			icon: 'fa-sharp fa-solid fa-bolt',
 			description:
 				'Smoljames Store is a merchandising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'
 		},
 		{
-			name: 'Ultimate Todos',
-			icon: 'fa-solid fa-list-check',
+			name: 'Cuphead NFT Minting dApp',
+			icon: 'fa-solid fa-gamepad',
 			description:
 				'Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.'
 		},
 		{
-			name: 'Pokédex',
-			icon: 'fa-solid fa-diagram-project',
+			name: 'ETH.ID Retro Game Emulator',
+			icon: 'fa-brands fa-ethereum',
 			description:
 				'Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).'
 		}
@@ -92,10 +92,16 @@
 			</Step>
 			<Step step={steps[1]}>
 				<p>
-					Ultimate Todos is a Full Stack <strong class="text-violet-400">Next.js</strong>,
-					<strong class="text-violet-400">Node.js + Express.js</strong>
-					& <strong class="text-violet-400">Firebase</strong> CRUD application that allows a user to
-					login, manage a tidy and efficacious todo list, and persist this information across devices.
+					The Cuphead NFT Minter DApp is a unique platform celebrating the iconic art style of the
+					beloved video game, Cuphead. Built using <strong class="text-violet-400"
+						>React.js,
+					</strong>,
+					<strong class="text-violet-400">Thirdweb SDK + NFT.Storage </strong> & Deployed on
+					<strong class="text-violet-400">IPFS</strong>
+					& <strong class="text-violet-400">Shadcn UI, TailwindCSS</strong> this DApp allows users
+					to upload and mint NFTs directly within the app. It features a responsive design with a
+					Cuphead-inspired art deco interface and includes functionalities like wallet connectivity
+					via the <strong class="text-violet-400">Mumbai Testnet</strong>.
 				</p>
 			</Step>
 			<Step step={steps[2]}>
