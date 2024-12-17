@@ -5,18 +5,21 @@
 		{
 			name: 'Lightning Bounties',
 			icon: 'fa-sharp fa-solid fa-bolt',
+			href: 'https://www.lightningbounties.com',
 			description:
 				'Smoljames Store is a merchandising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'
 		},
 		{
 			name: 'Cuphead NFT Minting dApp',
 			icon: 'fa-solid fa-gamepad',
+			href: 'https://aspecta.ai/projects/ef644f95-8422-4f9d-8e86-00f88ae303e7',
 			description:
 				'Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.'
 		},
 		{
 			name: 'ETH.ID Retro Game Emulator',
 			icon: 'fa-brands fa-ethereum',
+			href: 'https://boston.me.eth.id/',
 			description:
 				'Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).'
 		}
