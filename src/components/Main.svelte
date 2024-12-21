@@ -7,21 +7,21 @@
 			icon: 'fa-sharp fa-solid fa-bolt',
 			href: 'https://www.lightningbounties.com',
 			description:
-				'Smoljames Store is a merchandising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'
+				"Lightning Bounties uses Bitcoin's Lightning Network to democratize open-source contributions, offering instant payouts for approved GitHub pull requests."
 		},
 		{
 			name: 'Cuphead NFT Minting dApp',
 			icon: 'fa-solid fa-gamepad',
 			href: 'https://aspecta.ai/projects/ef644f95-8422-4f9d-8e86-00f88ae303e7',
 			description:
-				'Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.'
+				'A unique NFT collection celebrating the iconic art style and characters of the beloved run-and-gun video game Cuphead.'
 		},
 		{
 			name: 'ETH.ID Retro Game Emulator',
 			icon: 'fa-brands fa-ethereum',
 			href: 'https://boston.me.eth.id/',
 			description:
-				'Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).'
+				'This project is a simple retro game emulator that allows you to play classic games from various consoles, including GameBoy, N64, Play Station and Classic Arcade Games. Right Inside of your ETH.id Profile.'
 		}
 	];
 
@@ -66,9 +66,17 @@
 				<h4 class="relative z-9">Get in touch &rarr;</h4>
 			</button>
 		</div>
-		<div class="relative shadow-2xl grid place-items-center">
-			<img src={'images/profile.png'} alt="Zetane Engine" class="object-cover z-[2] max-h-[70vh]" />
-		</div>
+
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/IYmS16ruXp8?si=-9qvDZWxVGs00E2H"
+			title="YouTube video player"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+			class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 mt-2 hover:border-violet-700 duration-200"
+		/>
+		<!-- <img src={'images/profile.png'} alt="Profile_Image" class="object-cover z-[2] max-h-[70vh]" /> -->
 	</section>
 	<section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
 		<div class="flex flex-col gap-2 text-center">
@@ -88,9 +96,17 @@
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
 			<Step step={steps[0]}>
 				<p>
-					Smoljames Store is a a merchandising store created with <strong class="text-violet-400"
-						>Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-					> Commerce.js is a product CMS and Stripe is used for all transaction handling.
+					<strong class="text-violet-400">Lightning Bounties </strong> uses Bitcoin's Lightning
+					Network to democratize open-source contributions, offering instant payouts for approved
+					GitHub pull requests.
+					<strong class="text-violet-400"
+						>Lightning Bounties is the only Bug Bounty Platform that rewards contributors in native
+						Bitcoin without KYC, or installations.
+					</strong>
+					Lightning Bounties has already gained significant attention and traction. From Winning First
+					Prize at the
+					<strong class="text-violet-400"> 2024 MIT Bitcoin Hackathon, </strong> to being featured
+					on <strong class="text-violet-400"> Bitcoin News! </strong>
 				</p>
 			</Step>
 			<Step step={steps[1]}>
@@ -102,18 +118,21 @@
 					<strong class="text-violet-400">Thirdweb SDK + NFT.Storage </strong> & Deployed on
 					<strong class="text-violet-400">IPFS</strong>
 					& <strong class="text-violet-400">Shadcn UI, TailwindCSS</strong> this DApp allows users
-					to upload and mint NFTs directly within the app. It features a responsive design with a
-					Cuphead-inspired art deco interface and includes functionalities like wallet connectivity
-					via the <strong class="text-violet-400">Mumbai Testnet</strong>.
+					to upload and mint NFTs directly within the app. It also includes functionalities like
+					wallet connectivity via the <strong class="text-violet-400">Mumbai Testnet</strong>.
 				</p>
 			</Step>
 			<Step step={steps[2]}>
 				<p>
-					The Pokédex is a <strong class="text-violet-400">SvelteKit & TailwindCSS</strong>
-					web application, hosted on
-					<strong class="text-violet-400">Netlify</strong>, that consumes and caches the
-					<strong class="text-violet-400">Pokémon API</strong>
-					to display all Pokémon information. Gotta catch them all!
+					This project is a simple retro game emulator that allows you to play classic games from
+					various consoles, including <strong class="text-violet-400">
+						GameBoy, N64, Play Station
+					</strong>
+					and <strong class="text-violet-400">Classic Arcade Games</strong>
+					Inside of your <strong class="text-violet-400">ETH.id Profile.</strong>
+					It clinched second place at the
+					<strong class="text-violet-400">2023 MIT Bitcoin Hackathon</strong>
+					showcasing its innovative blend of blockchain and gaming nostalgia.
 				</p>
 			</Step>
 		</div>
