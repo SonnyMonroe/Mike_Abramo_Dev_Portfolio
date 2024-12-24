@@ -1,5 +1,6 @@
 <script>
 	import Step from './Step.svelte';
+	import VideoCards from './VideoCards.svelte';
 
 	let steps = [
 		{
@@ -170,6 +171,7 @@
 				</div>
 			{/each}
 		</div>
+
 		<h5 class={' text-2xl sm:text-3xl font-semibold text-center poppins '}>
 			The <span class="text-violet-400">Complete</span> Package
 		</h5>
@@ -227,6 +229,10 @@
 		<div class="mx-auto -mt-12 italic sm:hidden opacity-50">
 			<p>Scroll to see more &rarr;</p>
 		</div>
+		<br />
+		<br />
+		<VideoCards />
+		<br />
 		<p class="mx-auto">So why not invest?</p>
 	</section>
 </main>
