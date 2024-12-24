@@ -49,40 +49,42 @@
 <main class="flex flex-col flex-1 p-4">
 	<section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
 		<div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
-			<h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-				Hi! I'm <br /><span class="poppins text-violet-400">Mike Abramo </span>
-				<br />& I'm a
-				<span class="poppins text-violet-400">
-					<img
-						src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=72&pause=100&color=A78BFA&vCenter=true&random=true&width=820&height=72&lines=Blockchain+Developer;Startup+Co-Founder;Crypto+Researcher;Open+Source+Maxi"
-						alt="Typing SVG"
+			<div class="px-4 sm:px-6 lg:px-8">
+				<h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+					Hi! I'm <br /><span class="poppins text-violet-400">Mike Abramo </span>
+					<br />& I'm a
+					<span class="poppins text-violet-400">
+						<img
+							src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=72&pause=100&color=A78BFA&vCenter=true&random=true&width=820&height=72&lines=Blockchain+Developer;Startup+Co-Founder;Crypto+Researcher;Open+Source+Maxi"
+							alt="Typing SVG"
+						/>
+					</span>
+				</h2>
+			</div>
+			<div class="px-4 sm:px-6 lg:px-8">
+				<p class="text-base sm:text-lg md:text-xl">
+					My <span class="text-violet-400"> favorite tech</span> includes JavaScript (NEXT.JS or SvelteKit),
+					TailwindCSS, ShadCN, Solidity & ThirdWeb or Moralis!
+				</p>
+			</div>
+			<div class="px-4 sm:px-6 lg:px-8">
+				<button
+					class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+				>
+					<div
+						class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
 					/>
-				</span>
-			</h2>
-			<p class="text-base sm:text-lg md:text-xl">
-				My <span class="text-violet-400"> favorite tech</span> includes JavaScript (NEXT.JS or SvelteKit),
-				TailwindCSS, ShadCN, Solidity & ThirdWeb or Moralis!
-			</p>
-			<button
-				class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-			>
-				<div
-					class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-				/>
-				<h4 class="relative z-9">Get in touch &rarr;</h4>
-			</button>
+					<h4 class="relative z-9">Get in touch &rarr;</h4>
+				</button>
+			</div>
 		</div>
-
-		<iframe
-			width="560"
-			height="315"
-			src="https://www.youtube.com/embed/IYmS16ruXp8?si=-9qvDZWxVGs00E2H"
-			title="YouTube video player"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen
-			class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 mt-2 hover:border-violet-700 duration-200"
-		/>
-		<!-- <img src={'images/profile.png'} alt="Profile_Image" class="object-cover z-[2] max-h-[70vh]" /> -->
+		<div class="flex justify-center lg:justify-end">
+			<img
+				src={'images/excalidraw3.png'}
+				alt="Profile_Image"
+				class="hidden md:block object-cover z-[2] max-h-[90vh] md:mx-auto lg:mx-0 px-4 sm:px-6 lg:px-8"
+			/>
+		</div>
 	</section>
 	<section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
 		<div class="flex flex-col gap-2 text-center">
