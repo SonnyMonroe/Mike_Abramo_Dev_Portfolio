@@ -1,5 +1,9 @@
 <script>
 	import profileImage from '../images/profile_image.jpg';
+	import bdaoImage from '../images/BostonDAOlogo.jpg';
+	import ethBostonLogo from '../images/ethBostonLogo.png';
+	import mitBTCExpoLogo from '../images/mitBTCExpoLogo.png';
+	import lbLogo from '../images/LB_Logo_Dark.jpg';
 </script>
 
 <footer class="bg-slate-900 text-white py-8 px-4 mt-20">
@@ -21,28 +25,44 @@
 			</div>
 			<div class="icon-container">
 				<div class="icon-item">
-					<a href="https://example.com" target="_blank">
-						<img src="path/to/mit-bitcoin-expo-icon.png" alt="MIT Bitcoin Expo" />
+					<a href="https://mitbitcoinexpo.org/" target="_blank">
+						<img
+							src={mitBTCExpoLogo}
+							alt="MIT Bitcoin Expo"
+							class="w-16 h-16 rounded-full border-2 border-violet-400"
+						/>
 					</a>
-					<p>MIT Bitcoin Expo</p>
+					<p>MIT BTC<br /> Expo</p>
 				</div>
 				<div class="icon-item">
-					<a href="https://example.com" target="_blank">
-						<img src="path/to/eth-boston-icon.png" alt="ETH Boston" />
+					<a href="https://www.ethboston.xyz/" target="_blank">
+						<img
+							src={ethBostonLogo}
+							alt="Boston DAO"
+							class="w-16 h-16 rounded-full border-2 border-violet-400"
+						/>
 					</a>
-					<p>ETH Boston</p>
+					<p>ETH<br /> Boston</p>
 				</div>
 				<div class="icon-item">
-					<a href="https://example.com" target="_blank">
-						<img src="path/to/boston-dao-icon.png" alt="Boston DAO" />
+					<a href="https://x.com/thebostondao" target="_blank">
+						<img
+							src={bdaoImage}
+							alt="Boston DAO"
+							class="w-16 h-16 rounded-full border-2 border-violet-400"
+						/>
 					</a>
-					<p>Boston DAO</p>
+					<p>Boston<br /> DAO</p>
 				</div>
 				<div class="icon-item">
-					<a href="https://example.com" target="_blank">
-						<img src="path/to/coding-with-coffee-icon.png" alt="Coding with Coffee" />
+					<a href="https://www.lightningbounties.com/" target="_blank">
+						<img
+							src={lbLogo}
+							alt="Lightning Bounties"
+							class="w-16 h-16 rounded-full border-2 border-violet-400"
+						/>
 					</a>
-					<p>Coding with Coffee</p>
+					<p>Lightning<br /> Bounties</p>
 				</div>
 			</div>
 		</div>
@@ -106,16 +126,23 @@
 		padding: 1rem;
 		border-radius: 0.5rem;
 		background-color: #1e293b; /* slate-900 */
+		width: 100%;
 	}
 	.icon-container {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		margin-top: 1rem;
+		width: 100%;
 	}
 	.icon-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		text-align: center;
+		margin: 0.5rem;
 	}
 	.icon-item img {
+		display: flex;
 		width: 40px;
 		height: 40px;
 	}
@@ -123,5 +150,6 @@
 		margin-top: 0.5rem;
 		font-size: 0.75rem;
 		color: #9ca3af; /* gray-400 */
+		line-height: 1; /* Adjust line height to reduce spacing */
 	}
 </style>
