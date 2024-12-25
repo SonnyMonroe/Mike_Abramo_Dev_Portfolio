@@ -80,7 +80,7 @@
 		</div>
 		<div class="flex justify-center lg:justify-end">
 			<img
-				src={'images/excalidraw3.png'}
+				src={'src/images/excalidraw3.png'}
 				alt="Profile_Image"
 				class="hidden md:block object-cover z-[2] max-h-[90vh] md:mx-auto lg:mx-0 px-4 sm:px-6 lg:px-8"
 			/>
@@ -234,7 +234,5 @@
 		<br />
 		<br />
 		<VideoCards />
-		<br />
-		<p class="mx-auto">So why not invest?</p>
 	</section>
 </main>
