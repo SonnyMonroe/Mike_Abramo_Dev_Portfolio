@@ -2,7 +2,7 @@
 	import Step from './Step.svelte';
 	import VideoCards from './VideoCards.svelte';
 	import Table from './Table.svelte';
-	import excalidrawImage from '../images/excalidraw3.svg';
+	import excalidrawImage from '../images/excalidraw3.webp';
 
 	let steps = [
 		{
@@ -95,6 +95,7 @@
 				src={excalidrawImage}
 				alt="Profile_Image"
 				class="hidden md:block object-cover z-[2] max-h-[90vh] md:mx-auto lg:mx-0 px-4 sm:px-6 lg:px-8"
+				loading="lazy"
 			/>
 		</div>
 	</section>

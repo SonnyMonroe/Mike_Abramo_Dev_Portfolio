@@ -1,9 +1,9 @@
 <script>
-	import profileImage from '../images/profile_image.jpg';
-	import bdaoImage from '../images/BostonDAOlogo.jpg';
-	import ethBostonLogo from '../images/ethBostonLogo.png';
-	import mitBTCExpoLogo from '../images/mitBTCExpoLogo.png';
-	import lbLogo from '../images/LB_Logo_Dark.jpg';
+	import profileImage from '../images/profile_image.webp';
+	import bdaoImage from '../images/BostonDAOlogo.webp';
+	import ethBostonLogo from '../images/ethBostonLogo.webp';
+	import mitBTCExpoLogo from '../images/mitBTCExpoLogo.webp';
+	import lbLogo from '../images/LB_Logo_Dark.webp';
 </script>
 
 <footer class="bg-slate-900 text-white py-8 px-4 mt-2">
@@ -17,6 +17,7 @@
 					src={profileImage}
 					alt="Mike Abramo"
 					class="w-16 h-16 rounded-full border-2 border-violet-400"
+					loading="lazy"
 				/>
 				<div>
 					<h3 class="font-bold text-lg">Mike Abramo</h3>
@@ -31,6 +32,7 @@
 							src={mitBTCExpoLogo}
 							alt="MIT Bitcoin Expo"
 							class="w-16 h-16 rounded-full border-2 border-violet-400"
+							loading="lazy"
 						/>
 					</a>
 					<p>MIT BTC<br />Expo</p>
@@ -41,6 +43,7 @@
 							src={ethBostonLogo}
 							alt="Boston DAO"
 							class="w-16 h-16 rounded-full border-2 border-violet-400"
+							loading="lazy"
 						/>
 					</a>
 					<p>ETH<br /> Boston</p>
@@ -51,6 +54,7 @@
 							src={bdaoImage}
 							alt="Boston DAO"
 							class="w-16 h-16 rounded-full border-2 border-violet-400"
+							loading="lazy"
 						/>
 					</a>
 					<p>Boston<br /> DAO</p>
@@ -61,6 +65,7 @@
 							src={lbLogo}
 							alt="Lightning Bounties"
 							class="w-16 h-16 rounded-full border-2 border-violet-400"
+							loading="lazy"
 						/>
 					</a>
 					<p>Lightning<br /> Bounties</p>
@@ -68,9 +73,9 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container mx-auto px-4 pl-4 md:pl-8 lg:pl-16">
 			<!-- Navigation Links -->
-			<div class="flex-1 space-y-4 text-center">
+			<div class="flex-1 space-y-4 text-center md:text-center">
 				<h3 class="flex items-center text-lg font-semibold mb-4 text-violet-400">Quick Links</h3>
 				<div class="flex-1 flex-col space-y-2">
 					<a href="#projects" class=" flex items-center hover:text-violet-400 transition-colors"
@@ -92,7 +97,7 @@
 			</div>
 
 			<!-- Social Links -->
-			<div class="flex-1 space-y-4 text-center md:text-left">
+			<div class="flex-1 space-y-4 text-center md:text-center">
 				<h3 class="flex items-center text-lg font-semibold mb-4 text-violet-400">Connect</h3>
 				<div class="flex-1 flex-col space-y-2">
 					<a
@@ -128,16 +133,18 @@
 
 <style>
 	.profile-card {
-		border: 2px solid #7c3aed; /* violet-400 */
+		border: 2px solid #7c3aed;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 		padding: 1rem;
 		border-radius: 0.5rem;
-		background-color: #1e293b; /* slate-900 */
+		background-color: #1e293b;
 		width: 100%;
 	}
 	.icon-container {
 		display: flex;
-		justify-content: space-evenly;
+		flex-basis: content;
+		flex-direction: row;
+		justify-content: space-between;
 		margin-top: 1rem;
 		width: 100%;
 	}
@@ -156,13 +163,13 @@
 	.icon-item p {
 		margin-top: 0.5rem;
 		font-size: 0.75rem;
-		color: #9ca3af; /* gray-400 */
-		line-height: 1; /* Adjust line height to reduce spacing */
+		color: #9ca3af;
+		line-height: 1;
 	}
 	.container {
 		display: flex;
 		flex-direction: row;
-		align-items: center;
+		justify-content: space-between;
 		margin-top: 1rem;
 		width: 66.6%;
 	}

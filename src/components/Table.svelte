@@ -7,76 +7,150 @@
 				<tr>
 					<th>Languages</th>
 					<td
-						><img src="icons/programming_icons/javascript.png" alt="javascript" />JavaScript
-					</td><td><img src="icons/programming_icons/python.png" alt="python" />Python</td>
+						><img
+							src="icons/programming_icons/javascript.webp"
+							alt="javascript"
+							loading="lazy"
+						/>JavaScript
+					</td><td
+						><img src="icons/programming_icons/python.webp" alt="python" loading="lazy" />Python</td
+					>
 					<td colspan="7" />
 				</tr>
 				<tr>
 					<th>Database</th>
-					<td><img src="icons/database_icons/mysql.png" alt="MySQL" />MySQL</td>
-					<td><img src="icons/database_icons/posgress.png" alt="posgress" />Posgress</td>
+					<td><img src="icons/database_icons/mysql.webp" alt="MySQL" loading="lazy" />MySQL</td>
+					<td
+						><img
+							src="icons/database_icons/posgress.webp"
+							alt="postgres"
+							loading="lazy"
+						/>PostgreSQL</td
+					>
 					<td colspan="7" />
 				</tr>
 				<tr>
 					<th>Frontend</th>
-					<td> <img src="icons/frontend_icons/html.png" alt="html" />HTML</td>
-					<td> <img src="icons/frontend_icons/css3.png" alt="css3" />CSS</td>
-					<td> <img src="icons/frontend_icons/reactjs.png" alt="react" />React</td>
-					<td> <img src="icons/frontend_icons/nextjs.png" alt="nextjs" />Nextjs</td>
-					<td> <img src="icons/frontend_icons/svelte.png" alt="svelte" />Svelte</td>
-					<td> <img src="icons/frontend_icons/sass.png" alt="sass" />Sass</td>
-					<td> <img src="icons/frontend_icons/bootstrap.png" alt="bootstrap" />Bootstrap</td>
-					<td> <img src="icons/frontend_icons/shadcn.png" alt="shadcn" />ShadCN UI</td>
-					<td> <img src="icons/frontend_icons/tailwindcss.png" alt="tailwindcss" />TailwindCSS</td>
+					<td> <img src="icons/frontend_icons/html.webp" alt="html" loading="lazy" />HTML</td>
+					<td> <img src="icons/frontend_icons/css3.webp" alt="css3" loading="lazy" />CSS</td>
+					<td> <img src="icons/frontend_icons/reactjs.webp" alt="react" loading="lazy" />React</td>
+					<td> <img src="icons/frontend_icons/nextjs.webp" alt="nextjs" loading="lazy" />Nextjs</td>
+					<td> <img src="icons/frontend_icons/svelte.webp" alt="svelte" loading="lazy" />Svelte</td>
+					<td><img src="icons/frontend_icons/sass.webp" alt="sass" loading="lazy" />Sass</td>
+					<td
+						><img
+							src="icons/frontend_icons/bootstrap.webp"
+							alt="bootstrap"
+							loading="lazy"
+						/>Bootstrap</td
+					>
+					<td><img src="icons/frontend_icons/shadcn.webp" alt="shadcn" loading="lazy" />ShadCN</td>
+					<td>
+						<img
+							src="icons/frontend_icons/tailwindcss.webp"
+							alt="tailwindcss"
+							loading="lazy"
+						/>TailwindCSS</td
+					>
 				</tr>
 				<tr>
 					<th>Web3</th>
-					<td><img src="icons/web3_icons/solidity.png" alt="solidity" />Solidity</td>
-					<td><img src="icons/web3_icons/web3js.png" alt="web3js" />Web3js</td>
-					<td><img src="icons/web3_icons/thirdweb.png" alt="thirdweb" />Thirdweb</td>
-					<td><img src="icons/web3_icons/alchemy.png" alt="alchemy" />Alchemy</td>
-					<td><img src="icons/web3_icons/ipfs.png" alt="ipfs" />IPFS</td>
+					<td><img src="icons/web3_icons/solidity.webp" alt="solidity" loading="lazy" />Solidity</td
+					>
+					<td><img src="icons/web3_icons/web3js.webp" alt="web3js" loading="lazy" />Web3js</td>
+					<td><img src="icons/web3_icons/thirdweb.webp" alt="thirdweb" loading="lazy" />Thirdweb</td
+					>
+					<td><img src="icons/web3_icons/alchemy.webp" alt="alchemy" loading="lazy" />Alchemy</td>
+					<td><img src="icons/web3_icons/ipfs.webp" alt="ipfs" loading="lazy" />IPFS</td>
 					<td colspan="4" />
 				</tr>
 				<tr>
 					<th>Docs</th>
-					<td><img src="icons/documentation_icons/markdown.png" alt="markdown" />Markdown</td>
-					<td><img src="icons/documentation_icons/gitbook.png" alt="gitbook" />Gitbook</td>
-					<td><img src="icons/documentation_icons/excalidraw.png" alt="excalidraw" />Excalidraw</td>
-					<td><img src="icons/documentation_icons/draw.png" alt="draw" />Draw.io</td>
+					<td
+						><img
+							src="icons/documentation_icons/markdown.webp"
+							alt="markdown"
+							loading="lazy"
+						/>Markdown</td
+					>
+					<td
+						><img
+							src="icons/documentation_icons/gitbook.webp"
+							alt="gitbook"
+							loading="lazy"
+						/>Gitbook</td
+					>
+					<td
+						><img
+							src="icons/documentation_icons/excalidraw.webp"
+							alt="excalidraw"
+							loading="lazy"
+						/>Excalidraw</td
+					>
+					<td><img src="icons/documentation_icons/draw.webp" alt="draw" loading="lazy" />Draw.io</td
+					>
 					<td colspan="5" />
 				</tr>
 				<tr>
 					<th>Design</th>
-					<td><img src="icons/design_icons/figma.png" alt="figma" />Figma</td>
-					<td><img src="icons/design_icons/canva.png" alt="canva" />Canva</td>
-					<td><img src="icons/design_icons/phopedia.png" alt="phopedia" />Phopedia</td>
-					<td><img src="icons/design_icons/penpot.png" alt="penpot" />Penpot</td>
-					<td><img src="icons/design_icons/simpleicons.png" alt="simpleicons" />Simple Icons</td>
-					<td><img src="icons/design_icons/svg.png" alt="svg" />SVG</td>
-					<td><img src="icons/design_icons/giphy.png" alt="giphy" />Giphy</td>
+					<td><img src="icons/design_icons/figma.webp" alt="figma" loading="lazy" />Figma</td>
+					<td><img src="icons/design_icons/canva.webp" alt="canva" loading="lazy" />Canva</td>
+					<td
+						><img
+							src="icons/design_icons/phopedia.webp"
+							alt="phopedia"
+							loading="lazy"
+						/>Phopedia</td
+					>
+					<td><img src="icons/design_icons/penpot.webp" alt="penpot" loading="lazy" />Penpot</td>
+					<td
+						><img
+							src="icons/design_icons/simpleicons.webp"
+							alt="simpleicons"
+							loading="lazy"
+						/>Simple.Icons</td
+					>
+					<td><img src="icons/design_icons/svg.webp" alt="svg" loading="lazy" />SVG</td>
+					<td><img src="icons/design_icons/giphy.webp" alt="giphy" loading="lazy" />Giphy</td>
 					<td colspan="2" />
 				</tr>
 				<tr>
 					<th>Tools</th>
-					<td><img src="icons/tools_icons/notion.png" alt="notion" />Notion</td>
-					<td><img src="icons/tools_icons/googleslides.png" alt="googleslides" />Google Slides</td>
-					<td><img src="icons/tools_icons/perplexity.png" alt="perplexity" />Perplexity</td>
-					<td><img src="icons/tools_icons/codepen.png" alt="codepen" />Codepen</td>
-					<td><img src="icons/tools_icons/converto.png" alt="converto" />Converto</td>
+					<td><img src="icons/tools_icons/notion.webp" alt="notion" loading="lazy" />Notion</td>
 					<td
-						><img src="icons/tools_icons/internet_archive.png" alt="internetarchive" />Internet
-						Archive</td
+						><img
+							src="icons/tools_icons/googleslides.webp"
+							alt="googleslides"
+							loading="lazy"
+						/>Google Slides</td
+					>
+					<td
+						><img
+							src="icons/tools_icons/perplexity.webp"
+							alt="perplexity"
+							loading="lazy"
+						/>Perplexity</td
+					>
+					<td><img src="icons/tools_icons/codepen.webp" alt="codepen" loading="lazy" />Codepen</td>
+					<td
+						><img src="icons/tools_icons/converto.webp" alt="converto" loading="lazy" />Converto</td
+					>
+					<td
+						><img
+							src="icons/tools_icons/internet_archive.webp"
+							alt="internetarchive"
+							loading="lazy"
+						/>Internet Archive</td
 					>
 					<td colspan="4" />
 				</tr>
 				<tr>
 					<th>Other</th>
-					<td><img src="icons/misq_icons/git.png" alt="git" />Git</td>
-					<td><img src="icons/misq_icons/github.png" alt="github" />Github</td>
-					<td><img src="icons/misq_icons/bash.png" alt="bash" />Bash</td>
-					<td><img src="icons/misq_icons/vercel.png" alt="vercel" />Vercel</td>
-					<td><img src="icons/misq_icons/vite.png" alt="vite" />Vite</td>
+					<td><img src="icons/misq_icons/git.webp" alt="git" loading="lazy" />Git</td>
+					<td><img src="icons/misq_icons/github.webp" alt="github" loading="lazy" />Github</td>
+					<td><img src="icons/misq_icons/bash.webp" alt="bash" loading="lazy" />Bash</td>
+					<td><img src="icons/misq_icons/vercel.webp" alt="vercel" loading="lazy" />Vercel</td>
+					<td><img src="icons/misq_icons/vite.webp" alt="vite" loading="lazy" />Vite</td>
 					<td colspan="5" />
 				</tr>
 			</tbody>
@@ -85,64 +159,60 @@
 </div>
 
 <style>
-	.table-container {
-		background-color: #1e293b; /* Set background color */
-		border-radius: 15px; /* Rounded corners */
+	.tg td,
+	.tg th {
+		color: #1e293b;
 	}
-
+	.tg td,
+	.tg th,
+	tr {
+		text-align: center;
+	}
+	.table-container {
+		background-color: #1e293b;
+		border-radius: 15px;
+	}
 	@media screen and (max-width: 767px) {
 		.tg {
-			width: 90%; /* Use full width on small screens */
-			border-spacing: 0; /* Remove spacing for smaller screens */
+			width: 90%;
+			border-spacing: 0;
 		}
 		.tg-wrap {
 			overflow-x: auto;
 			-webkit-overflow-scrolling: touch;
 		}
 	}
-
 	.tg {
 		border-collapse: collapse;
 		border-color: #a78aff;
-		border-spacing: 0; /* Remove default spacing for better control */
-		font-family: 'Poppins', sans-serif;
-		width: 40%; /* Set a default width */
-		margin: 0 auto; /* Center the table */
+		border-spacing: 0;
+		font-family: Poppins, sans-serif;
+		width: 40%;
+		margin: 0 auto;
 	}
-
-	.tg th,
-	.tg td {
-		border-color: #fff;
-		border-style: solid;
-		border-width: 1px;
-		padding: 5px 5px;
-		text-align: center; /* Center text */
+	.tg td,
+	.tg th {
+		border: 1px solid #fff;
+		padding: 5px;
 		vertical-align: middle;
 	}
-
 	.tg th {
 		background-color: #a78aff;
-		color: #1e293b;
-		font-size: 1.5rem; /* Use relative units for responsiveness */
+		font-size: 1.5rem;
 		font-style: italic;
-		font-weight: bold;
+		font-weight: 700;
 	}
-
 	.tg td {
 		background-color: #fff;
-		color: #1e293b;
-		font-size: 1rem; /* Use relative units for responsiveness */
+		font-size: 1rem;
 		font-weight: 900;
 	}
-
 	.tg td img {
 		width: 50px;
 		height: 50px;
 		margin: auto;
 	}
-
 	tr {
 		border: 10px solid #1e293b;
-		text-align: center;
 	}
 </style>

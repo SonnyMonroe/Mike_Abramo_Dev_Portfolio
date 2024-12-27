@@ -4,13 +4,15 @@
 	import '../app.css';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
-	injectSpeedInsights();
 	let y;
 	let innerWidth = 0;
 	let innerHeight = 0;
 
 	function goTop() {
 		document.body.scrollIntoView();
+	}
+	if (import.meta.env.MODE === 'development') {
+		injectSpeedInsights();
 	}
 </script>
 

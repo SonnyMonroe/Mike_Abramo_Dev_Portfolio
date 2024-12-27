@@ -113,59 +113,45 @@
 <style>
 	/* Navigation Styles */
 	.nav-link {
-		font-size: 1.125rem; /* text-lg */
+		font-size: 1.125rem;
 		padding: 0.5rem 1rem;
-		transition: color 0.3s ease;
+		transition: color 0.3s;
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
 	}
-
 	.nav-link:hover {
-		color: #7c3aed; /* violet-400 */
+		color: #7c3aed;
 	}
-
 	.nav-container {
 		display: flex;
 		gap: 1.5rem;
 		flex-wrap: wrap;
 	}
-
-	/* Mobile Navigation Styles */
 	@media screen and (max-width: 767px) {
 		.mobile-nav-link {
-			font-size: 1.25rem; /* text-xl */
+			font-size: 1.25rem;
 			padding: 0.75rem 1rem;
 			display: flex;
 			align-items: center;
 			gap: 0.75rem;
-			transition: color 0.3s ease;
+			transition: color 0.3s;
 		}
-
 		.mobile-nav-link:hover {
-			color: #7c3aed; /* violet-400 */
+			color: #7c3aed;
 		}
 	}
-
-	/* Responsive Styles for 767px to 917px */
 	@media screen and (min-width: 768px) and (max-width: 917px) {
-		.header {
-			flex-direction: column;
-			align-items: center;
-			display: none;
-		}
-
+		.header,
 		.nav-container {
 			flex-direction: column;
 			align-items: center;
 			display: none;
 		}
-
 		.nav-link {
-			font-size: 1rem; /* Adjust font size as needed */
+			font-size: 1rem;
 			padding: 0.5rem;
 		}
-
 		.blueShadow {
 			width: 100%;
 			text-align: center;

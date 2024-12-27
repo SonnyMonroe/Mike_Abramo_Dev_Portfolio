@@ -19,6 +19,7 @@
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
+						loading="lazy"
 					/>
 				</div>
 				<div class="mt-4 border-t border-gray-700 pt-4">
@@ -47,6 +48,7 @@
 						title="YouTube video player"
 						referrerpolicy="strict-origin-when-cross-origin"
 						allowfullscreen
+						loading="lazy"
 					/>
 				</div>
 				<div class="mt-4 border-t border-gray-700 pt-4">
@@ -75,6 +77,7 @@
 						title="YouTube video player"
 						referrerpolicy="strict-origin-when-cross-origin"
 						allowfullscreen
+						loading="lazy"
 					/>
 				</div>
 				<div class="mt-4 border-t border-gray-700 pt-4">

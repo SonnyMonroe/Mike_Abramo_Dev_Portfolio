@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Deploy Site on Vercel
+- [x] Deploy Site on Vercel
 - [x] Change Content Writing to be personalized
 - [ ] Make Video for Demo
 - [x] Make Footer more stylish
@@ -15,16 +15,17 @@
 - [x] Add Section Where I was mentioned: startup day, hackathons, lightning bounties
 - [ ] Make Resume Video < 3mins
 - [x] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
-- [ ] Change name of Repo to make it represent my portfolio
-- [ ] Change File path in local machine, make it easier to find
+- [x] Change name of Repo to make it represent my portfolio
+- [x] Change File path in local machine, make it easier to find
 - [ ] Update Aspecta ID profile
 - [ ] Fix Hamburger Menu
-- [x] Fix Footer Alignment
-- [ ] Fix Slow Render Speeds
+- [ ] Fix Footer Alignment
+- [ ] Fix Slow Render Speeds Scores 81, 86, 96 82
 - [ ] Fix Nav Links in Medium Screens
 - [x] Replace Table With Something Better
   - [x] Maybe Do Teck Stack/Tools I Like to Use
 - [ ] Make Form to Contact me
+- [ ]
 
 # My Svelte Portfolio Site
 
@@ -79,3 +80,4 @@ This project is a personal portfolio site built with Svelte. It includes a respo
 - Styled using TailwindCSS
 - FontAwesome icons
 - Dynamic environment variables
+- Deployed on vercel
