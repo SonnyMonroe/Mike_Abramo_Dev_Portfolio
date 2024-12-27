@@ -7,5 +7,13 @@ export default defineConfig({
 		hmr: {
 			overlay: false
 		}
+	},
+	resolve: {
+		alias: {
+			$components: '/src/components',
+			$lib: '/src/lib',
+			$routes: '/src/routes',
+			$styles: '/src/styles'
+		}
 	}
 });
