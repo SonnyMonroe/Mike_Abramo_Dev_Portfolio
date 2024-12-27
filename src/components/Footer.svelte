@@ -6,9 +6,9 @@
 	import lbLogo from '../images/LB_Logo_Dark.jpg';
 </script>
 
-<footer class="bg-slate-900 text-white py-8 px-4 mt-20">
+<footer class="bg-slate-900 text-white py-8 px-4 mt-2">
 	<div
-		class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8"
+		class="max-w-6xl mx-auto flex flex-col md:flex-row sm:flex-row justify-around items-center gap-8"
 	>
 		<!-- Profile Section -->
 		<div class="flex flex-col items-center space-y-4 profile-card md:items-start md:flex-1">
@@ -23,6 +23,7 @@
 					<p class="text-sm text-gray-400">If it's not decentralized, it's not crypto.</p>
 				</div>
 			</div>
+			<!-- <h3 class="flex flex-col font-bold text-lg">My Orginizations</h3> -->
 			<div class="icon-container">
 				<div class="icon-item">
 					<a href="https://mitbitcoinexpo.org/" target="_blank">
@@ -67,48 +68,56 @@
 			</div>
 		</div>
 
-		<!-- Navigation Links -->
-		<div class="space-y-4 text-center md:flex-1">
-			<h4 class="text-lg font-semibold mb-4 text-violet-400">Quick Links</h4>
-			<nav class="flex flex-col space-y-2">
-				<a href="#projects" class="hover:text-violet-400 transition-colors"
-					><i class="fa-solid fa-code mr-2" />Projects</a
-				>
-				<a href="#about" class="hover:text-violet-400 transition-colors"
-					><i class="fa-regular fa-circle-user mr-2" /> About</a
-				>
-				<a
-					href="https://blog.lightningbounties.com/"
-					class="hover:text-violet-400 transition-colors"
-					><i class="fa-solid fa-pencil mr-2" /> Blog</a
-				>
-			</nav>
-		</div>
+		<div class="container">
+			<!-- Navigation Links -->
+			<div class="flex-1 space-y-4 text-center">
+				<nav class="flex flex-col space-y-2">
+					<h3 class="flex items-center text-lg font-semibold mb-4 text-violet-400">Quick Links</h3>
 
-		<!-- Social Links -->
-		<div class="space-y-4 text-align md:flex-1">
-			<h4 class="text-lg font-semibold mb-4 text-violet-400">Connect</h4>
-			<div class="flex flex-col space-y-2">
-				<a
-					href="https://github.com/SonnyMonroe"
-					target="_blank"
-					class="flex items-center hover:text-violet-400 transition-colors"
-				>
-					<i class="fa-brands fa-github mr-2" /> GitHub
-				</a>
-				<a
-					href="https://www.linkedin.com/in/michael-abramo/"
-					target="_blank"
-					class="flex items-center hover:text-violet-400 transition-colors"
-				>
-					<i class="fa-brands fa-linkedin mr-2" /> LinkedIn
-				</a>
-				<a
-					href="mailto:mabramo11@protonmail.com"
-					class="flex items-center hover:text-violet-400 transition-colors"
-				>
-					<i class="fa-solid fa-envelope mr-2" /> Email
-				</a>
+					<a href="#projects" class=" flex items-center hover:text-violet-400 transition-colors"
+						><i class="fa-solid fa-code mr-2" />
+						Projects
+					</a>
+					<a class="flex items-center hover:text-violet-400 transition-colors" href="#about">
+						<i class="fa-regular fa-circle-user mr-2" />
+						About
+					</a>
+					<a
+						href="https://blog.lightningbounties.com/"
+						class="flex items-center hover:text-violet-400 transition-colors"
+						target="_blank"
+					>
+						<i class="fa-solid fa-pencil mr-2" />
+						Blog
+					</a>
+				</nav>
+			</div>
+
+			<!-- Social Links -->
+			<div class="flex-1 space-y-4 text-center md:text-left">
+				<h3 class="flex items-center text-lg font-semibold mb-4 text-violet-400">Connect</h3>
+				<div class="flex-1 flex-col space-y-2">
+					<a
+						href="https://github.com/SonnyMonroe"
+						target="_blank"
+						class="flex items-center hover:text-violet-400 transition-colors"
+					>
+						<i class="fa-brands fa-github mr-2" /> GitHub
+					</a>
+					<a
+						href="https://www.linkedin.com/in/michael-abramo/"
+						target="_blank"
+						class="flex items-center hover:text-violet-400 transition-colors"
+					>
+						<i class="fa-brands fa-linkedin mr-2" /> LinkedIn
+					</a>
+					<a
+						href="mailto:mabramo11@protonmail.com"
+						class="flex items-center hover:text-violet-400 transition-colors"
+					>
+						<i class="fa-solid fa-envelope mr-2" /> Email
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -130,7 +139,7 @@
 	}
 	.icon-container {
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		margin-top: 1rem;
 		width: 100%;
 	}
@@ -143,13 +152,20 @@
 	}
 	.icon-item img {
 		display: flex;
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 50px;
 	}
 	.icon-item p {
 		margin-top: 0.5rem;
 		font-size: 0.75rem;
 		color: #9ca3af; /* gray-400 */
 		line-height: 1; /* Adjust line height to reduce spacing */
+	}
+	.container {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 1rem;
+		width: 66%;
+		position: relative;
 	}
 </style>

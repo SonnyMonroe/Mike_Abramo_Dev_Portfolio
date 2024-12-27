@@ -65,18 +65,21 @@
 			<div class="px-4 sm:px-6 lg:px-8">
 				<p class="text-base sm:text-lg md:text-xl">
 					My <span class="text-violet-400"> favorite tech</span> includes JavaScript (NEXT.JS or SvelteKit),
-					TailwindCSS, ShadCN, Solidity & ThirdWeb or Moralis!
+					TailwindCSS, ShadCN, Solidity & ThirdWeb or Alchemy!
 				</p>
 			</div>
 			<div class="px-4 sm:px-6 lg:px-8">
-				<button
-					class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-				>
-					<div
-						class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-					/>
-					<h4 class="relative z-9">Get in touch &rarr;</h4>
-				</button>
+				<a href="mailto:mabramo11@protonmail.com" aria-label="Get in touch via email">
+					<button
+						class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+					>
+						<div
+							class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+						/>
+
+						<h4 class="relative z-9">Get in touch &rarr;</h4>
+					</button>
+				</a>
 			</div>
 		</div>
 		<div class="flex justify-center lg:justify-end">
@@ -155,7 +158,7 @@
 		>
 			<h6 class="text-large sm:text-xl md:text-2xl">Want to know more?</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-				A bit <span class="poppins text-violet-400">about</span> me.
+				A bit <span class="poppins text-violet-400">about</span> me
 			</h3>
 		</div>
 		<p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
@@ -180,9 +183,19 @@
 		<div
 			class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
 		>
+			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Spotlight</h3>
+			<h6 class="text-large sm:text-xl md:text-2xl">of my</h6>
+			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+				<span class="poppins text-violet-400">Greatest</span> Achievements
+			</h3>
+		</div>
+		<VideoCards />
+		<div
+			class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+		>
 			<h6 class="text-large sm:text-xl md:text-2xl">My</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-				Developer <span class="poppins text-violet-400">Tool</span> box.
+				Developer <span class="poppins text-violet-400">Tool</span> Box
 			</h3>
 		</div>
 		<div class="flex flex-col overflow-x-scroll gap-10 max-w-[900px] mx-auto w-full">
@@ -192,7 +205,5 @@
 		<div class="mx-auto -mt-12 italic sm:hidden opacity-50">
 			<p>Scroll to see more &rarr;</p>
 		</div>
-		<br />
-		<VideoCards />
 	</section>
 </main>

@@ -15,16 +15,15 @@
 - [x] Add Section Where I was mentioned: startup day, hackathons, lightning bounties
 - [ ] Make Resume Video < 3mins
 - [x] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
-- [ ] Mention what I can do for jobs/pitch
 - [ ] Change name of Repo to make it represent my portfolio
 - [ ] Change File path in local machine, make it easier to find
 - [ ] Update Aspecta ID profile
 - [ ] Fix Hamburger Menu
-- [ ] Fix Footer Alignment
+- [x] Fix Footer Alignment
 - [ ] Fix Slow Render Speeds
 - [ ] Fix Nav Links in Medium Screens
-- [ ] Replace Table With Something Better
-  - [ ] Maybe Do Teck Stack/Tools I Like to Use
+- [x] Replace Table With Something Better
+  - [x] Maybe Do Teck Stack/Tools I Like to Use
 - [ ] Make Form to Contact me
 
 # Setup
