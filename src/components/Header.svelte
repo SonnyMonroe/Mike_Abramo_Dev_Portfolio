@@ -42,7 +42,7 @@
 >
 	<!-- Logo and Name Section -->
 	<div class="flex items-center">
-		<img src="/favicon/favicon-16x16.png" alt="Logo" class="w-8 h-8 mr-2" />
+		<!-- <img src="/favicon/favicon-16x16.png" alt="Logo" class="w-8 h-8 mr-2" /> -->
 		<h1 class="font-medium text-xl">
 			<b class="font-bold poppins">Mike</b> <span class="">Abramo</span>
 		</h1>
@@ -144,6 +144,31 @@
 
 		.mobile-nav-link:hover {
 			color: #7c3aed; /* violet-400 */
+		}
+	}
+
+	/* Responsive Styles for 767px to 917px */
+	@media screen and (min-width: 768px) and (max-width: 917px) {
+		.header {
+			flex-direction: column;
+			align-items: center;
+			display: none;
+		}
+
+		.nav-container {
+			flex-direction: column;
+			align-items: center;
+			display: none;
+		}
+
+		.nav-link {
+			font-size: 1rem; /* Adjust font size as needed */
+			padding: 0.5rem;
+		}
+
+		.blueShadow {
+			width: 100%;
+			text-align: center;
 		}
 	}
 </style>

@@ -26,43 +26,56 @@
   - [x] Maybe Do Teck Stack/Tools I Like to Use
 - [ ] Make Form to Contact me
 
-# Setup
+# My Svelte Portfolio Site
 
-# sv
+![Svelte Logo](https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Overview
 
-## Creating a project
+This project is a personal portfolio site built with Svelte. It includes a responsive header with a hamburger menu, a stylish footer, and various components such as a table and video cards. The application is styled using TailwindCSS and includes FontAwesome icons.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Installation
 
-```bash
-# create a new project in the current directory
-npx sv create
+1. Clone the repository:
 
-# create a new project in my-app
-npx sv create my-app
-```
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-## Developing
+2. Navigate to the project directory:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+   ```sh
+   cd your-repo
+   ```
 
-```bash
-npm run dev
+3. Install dependencies:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+   ```sh
+   npm install
+   ```
 
-## Building
+## Usage
 
-To create a production version of your app:
+1. Start the development server:
 
-```bash
-npm run build
-```
+   ```sh
+   npm run dev
+   ```
 
-You can preview the production build with `npm run preview`.
+2. Open your browser and navigate to `http://localhost:5173`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Tech Stack
+
+- **Svelte**: A component framework for building web applications.
+- **TailwindCSS**: A utility-first CSS framework for styling.
+- **FontAwesome**: A library for scalable vector icons.
+- **Vite**: A build tool that provides a fast development server and optimized builds.
+
+## Features
+
+- Responsive header with a hamburger menu
+- Desktop and mobile navigation
+- Contact button linking to email
+- Styled using TailwindCSS
+- FontAwesome icons
+- Dynamic environment variables
