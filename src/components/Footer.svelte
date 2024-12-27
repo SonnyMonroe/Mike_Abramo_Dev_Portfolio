@@ -33,7 +33,7 @@
 							class="w-16 h-16 rounded-full border-2 border-violet-400"
 						/>
 					</a>
-					<p>MIT BTC<br /> Expo</p>
+					<p>MIT BTC<br />Expo</p>
 				</div>
 				<div class="icon-item">
 					<a href="https://www.ethboston.xyz/" target="_blank">
@@ -71,12 +71,10 @@
 		<div class="container">
 			<!-- Navigation Links -->
 			<div class="flex-1 space-y-4 text-center">
-				<nav class="flex flex-col space-y-2">
-					<h3 class="flex items-center text-lg font-semibold mb-4 text-violet-400">Quick Links</h3>
-
+				<h3 class="flex items-center text-lg font-semibold mb-4 text-violet-400">Quick Links</h3>
+				<div class="flex-1 flex-col space-y-2">
 					<a href="#projects" class=" flex items-center hover:text-violet-400 transition-colors"
-						><i class="fa-solid fa-code mr-2" />
-						Projects
+						><i class="fa-solid fa-code mr-2" />Projects
 					</a>
 					<a class="flex items-center hover:text-violet-400 transition-colors" href="#about">
 						<i class="fa-regular fa-circle-user mr-2" />
@@ -90,7 +88,7 @@
 						<i class="fa-solid fa-pencil mr-2" />
 						Blog
 					</a>
-				</nav>
+				</div>
 			</div>
 
 			<!-- Social Links -->
@@ -163,9 +161,9 @@
 	}
 	.container {
 		display: flex;
-		justify-content: flex-end;
+		flex-direction: row;
+		align-items: center;
 		margin-top: 1rem;
-		width: 66%;
-		position: relative;
+		width: 66.6%;
 	}
 </style>

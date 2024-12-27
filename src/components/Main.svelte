@@ -64,12 +64,19 @@
 			</div>
 			<div class="px-4 sm:px-6 lg:px-8">
 				<p class="text-base sm:text-lg md:text-xl">
-					My <span class="text-violet-400"> favorite tech</span> includes JavaScript (NEXT.JS or SvelteKit),
-					TailwindCSS, ShadCN, Solidity & ThirdWeb or Alchemy!
+					<span class="text-violet-400">See any bugs here?</span> My startup,
+					<span class="text-violet-400">Lightning Bounties</span>, is ready to pay you real Bitcoin
+					for fixing bugs on my website! We also have fresh open bounties every day.
+					<span class="text-violet-400">Interested?</span>
+					Click the link below to get started with bounty hunting!
 				</p>
 			</div>
 			<div class="px-4 sm:px-6 lg:px-8">
-				<a href="mailto:mabramo11@protonmail.com" aria-label="Get in touch via email">
+				<a
+					href="https://app.lightningbounties.com/"
+					aria-label="Solve Bounties & Earn Bitcoin"
+					target="_blank"
+				>
 					<button
 						class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
 					>
@@ -77,7 +84,7 @@
 							class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
 						/>
 
-						<h4 class="relative z-9">Get in touch &rarr;</h4>
+						<h4 class="relative z-9">Bug Bounties &rarr;</h4>
 					</button>
 				</a>
 			</div>

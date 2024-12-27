@@ -38,7 +38,7 @@
 	class={`scroll z-[9] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid relative
         ${
 					y > 0 ? 'py-4 bg-slate-950 border-violet-950' : 'py-6 bg-transparent border-transparent'
-				}`}
+				} ${showMenu ? 'hidden' : 'flex'}`}
 >
 	<!-- Logo and Name Section -->
 	<div class="flex items-center">
@@ -58,17 +58,16 @@
 	</nav>
 
 	<!-- Contact Button (Desktop Only) -->
-	<button
-		class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-violet-600 text-white hidden md:block"
-		on:click={() => (document.getElementById('contact-form').style.display = 'block')}
-		on:keydown={(event) =>
-			event.key === 'Enter' && (document.getElementById('contact-form').style.display = 'block')}
-	>
-		<div
-			class="absolute top-0 right-full w-full h-full bg-violet-600 opacity-20 group-hover:translate-x-full z-0 duration-200"
-		/>
-		<h4 class="relative z-9">Contact Me</h4>
-	</button>
+	<a href="mailto:mabramo11@protonmail.com" class="hidden md:block">
+		<button
+			class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-violet-600 text-white"
+		>
+			<div
+				class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+			/>
+			<h4 class="relative z-9">Contact Me</h4>
+		</button>
+	</a>
 
 	<!-- Hamburger Menu Button (Mobile Only) -->
 	<button
@@ -81,31 +80,33 @@
 
 <!-- Mobile Navigation Menu -->
 {#if showMenu}
-	<div class="absolute top-0 left-0 w-full px-4 pb-4 flex flex-col gap-4bg-indigo-400 shadow z-10">
+	<div class="absolute top-0 left-0 w-full px-4 pb-4 flex flex-col gap-4 bg-slate-900 shadow z-10">
 		<div
-			class="flex items-center justify-between gap-4 border-b-[1.5px] border-solid border-indigo-400 py-4"
+			class="flex items-center justify-center gap-4 border-b-[1.5px] border-solid border-indigo-400 py-4 relative"
 		>
-			<h2>Menu</h2>
+			<h2 class="text-white text-2xl font-bold">Menu</h2>
 			<i
 				on:click={toggleMenu}
-				class="fa-solid fa-xmark text-lg cursor-pointer hover:opacity-60 duration-200"
+				class="fa-solid fa-xmark text-3xl cursor-pointer hover:opacity-60 duration-200 text-white absolute right-4"
 				role="button"
 			/>
 		</div>
-		{#each tabs as { name, link }}
-			<div on:click={toggleMenu}>
-				<a href={link} class="text-sm capitalize">{name}</a>
+		{#each tabs as { name, link, icon }}
+			<div
+				on:click={toggleMenu}
+				class="flex items-center justify-center gap-2 text-xl hover:text-violet-400 duration-200 text-white"
+			>
+				<i class={icon} />
+				<a href={link} class="capitalize">{name}</a>
 			</div>
 		{/each}
-		<button
-			on:click={() => {
-				document.getElementById('contact-form').style.display = 'block';
-				toggleMenu();
-			}}
-			class="bg-indigo-400 text-white text-lg sm:text-xl md:text-2xl font-medium border-2 border-solid border-indigo-200 rounded-lg px-4 py-2 hover:bg-indigo-300 duration-200 text-center"
-		>
-			Contact Me
-		</button>
+		<a href="mailto:mabramo11@protonmail.com" class="w-full">
+			<button
+				class="bg-indigo-400 text-white text-lg sm:text-xl md:text-2xl font-medium border-2 border-solid border-indigo-200 rounded-lg px-4 py-2 hover:bg-indigo-300 duration-200 text-center w-full"
+			>
+				Contact Me
+			</button>
+		</a>
 	</div>
 {/if}
 
@@ -128,5 +129,21 @@
 		display: flex;
 		gap: 1.5rem;
 		flex-wrap: wrap;
+	}
+
+	/* Mobile Navigation Styles */
+	@media screen and (max-width: 767px) {
+		.mobile-nav-link {
+			font-size: 1.25rem; /* text-xl */
+			padding: 0.75rem 1rem;
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+			transition: color 0.3s ease;
+		}
+
+		.mobile-nav-link:hover {
+			color: #7c3aed; /* violet-400 */
+		}
 	}
 </style>
