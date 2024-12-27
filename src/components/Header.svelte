@@ -126,7 +126,7 @@
 	.nav-container {
 		display: flex;
 		gap: 1.5rem;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 	}
 	@media screen and (max-width: 767px) {
 		.mobile-nav-link {
@@ -141,12 +141,15 @@
 			color: #7c3aed;
 		}
 	}
-	@media screen and (min-width: 768px) and (max-width: 917px) {
+	@media screen and (min-width: 768px) and (max-width: 926px) {
 		.header,
 		.nav-container {
-			flex-direction: column;
+			display: flex;
+			flex-wrap: nowrap;
+			flex-direction: row;
 			align-items: center;
-			display: none;
+			max-width: 100%;
+			margin: 0.5em auto;
 		}
 		.nav-link {
 			font-size: 1rem;
@@ -155,6 +158,11 @@
 		.blueShadow {
 			width: 100%;
 			text-align: center;
+		}
+		i {
+			display: none;
+			text-align: bottom;
+			margin-bottom: 0.25rem;
 		}
 	}
 </style>

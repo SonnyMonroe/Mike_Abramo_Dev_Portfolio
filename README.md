@@ -1,39 +1,25 @@
-# TODO
-
-- [x] Deploy Site on Vercel
-- [x] Change Content Writing to be personalized
-- [ ] Make Video for Demo
-- [x] Make Footer more stylish
-- [ ] Make Header better
-- [ ] Write Documentation
-- [x] Add Lightning Bounties Content / Assets
-- [ ] Add Bounty on Things I need Help On
-- [x] Add Deign Assets
-- [x] Change Projects Section
-- [ ] Credit https://github.com/jamezmca
-- [x] Get Better Profile Image Main
-- [x] Add Section Where I was mentioned: startup day, hackathons, lightning bounties
-- [ ] Make Resume Video < 3mins
-- [x] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
-- [x] Change name of Repo to make it represent my portfolio
-- [x] Change File path in local machine, make it easier to find
-- [ ] Update Aspecta ID profile
-- [ ] Fix Hamburger Menu
-- [ ] Fix Footer Alignment
-- [ ] Fix Slow Render Speeds Scores 81, 86, 96 82
-- [ ] Fix Nav Links in Medium Screens
-- [x] Replace Table With Something Better
-  - [x] Maybe Do Teck Stack/Tools I Like to Use
-- [ ] Make Form to Contact me
-- [ ]
-
 # My Svelte Portfolio Site
 
-![Svelte Logo](https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg)
+![Svelte Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0coQ0GhdVXUNpVRhyOxqlyr_TKNJTjP_tzg&s)
 
 ## Overview
 
 This project is a personal portfolio site built with Svelte. It includes a responsive header with a hamburger menu, a stylish footer, and various components such as a table and video cards. The application is styled using TailwindCSS and includes FontAwesome icons.
+
+## Live Demo
+
+Visit the live site: mike-abramo.vercel.app
+
+- [Website](https://mike-abramo.vercel.app/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7LNoe5A2imE?si=58Nl-1esXsA8NVg7&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Technologies Used
+
+Frontend Framework: SvelteKit
+Styling: Tailwind CSS
+Deployment: Vercel
+Build Tool: Vite
 
 ## Installation
 
@@ -67,10 +53,11 @@ This project is a personal portfolio site built with Svelte. It includes a respo
 
 ## Tech Stack
 
-- **Svelte**: A component framework for building web applications.
+- **SvelteKit**: A component framework for building web applications.
 - **TailwindCSS**: A utility-first CSS framework for styling.
 - **FontAwesome**: A library for scalable vector icons.
 - **Vite**: A build tool that provides a fast development server and optimized builds.
+- **Vercel**: Deployment
 
 ## Features
 
@@ -81,3 +68,11 @@ This project is a personal portfolio site built with Svelte. It includes a respo
 - FontAwesome icons
 - Dynamic environment variables
 - Deployed on vercel
+
+# Shout out to...
+
+| Person                                          | Creation                                                               | Description                                                                                   |
+| ----------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [jamezmca](https://github.com/jamezmca)         | [YouTube Tutorial](https://youtu.be/-2UjwQzxvBQ?si=AzQuUI_JlDxEkxNX)   | Provided the inspiration for this project                                                     |
+| [DenverCoder1](https://github.com/DenverCoder1) | [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Dynamically generated, customizable SVG that gives the appearance of typing and deleting text |
+| [Vincent Garreau](https://vincentgarreau.com/)  | [particles.js](https://vincentgarreau.com/particles.js/)               | A lightweight JavaScript library for creating particles                                       |

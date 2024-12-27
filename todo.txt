@@ -1,0 +1,28 @@
+# TODO
+
+- [x] Deploy Site on Vercel
+- [x] Change Content Writing to be personalized
+- [ ] Make Video for Demo
+- [x] Make Footer more stylish
+- [ ] Make Header better--->
+- [ ] Write Documentation--->
+- [x] Add Lightning Bounties Content / Assets
+- [ ] Add Bounty on Things I need Help On
+- [x] Add Deign Assets
+- [x] Change Projects Section
+- [ ] Credit https://github.com/jamezmca
+- [x] Get Better Profile Image Main
+- [x] Add Section Where I was mentioned: startup day, hackathons, lightning bounties
+- [ ] Make Resume Video < 3mins
+- [x] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
+- [x] Change name of Repo to make it represent my portfolio
+- [x] Change File path in local machine, make it easier to find
+- [ ] Update Aspecta ID profile
+- [x] Fix Hamburger Menu
+- [ ] Fix Footer Alignment
+- [ ] Fix Slow Render Speeds Scores 81, 86, 96 82 -->
+- [ ] Fix Nav Links in Medium Screens
+- [x] Replace Table With Something Better
+  - [x] Maybe Do Teck Stack/Tools I Like to Use
+- [ ] Make Form to Contact me
+- [ ]
