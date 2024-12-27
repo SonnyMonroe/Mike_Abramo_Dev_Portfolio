@@ -1,13 +1,8 @@
 {
-	"build": {
-		"env": {
-			"NODE_VERSION": "18.x"
-		}
-	},
-	"routes": [
+	"builds": [
 		{
-			"src": "/(.*)",
-			"dest": "/src/$1"
+			"src": "package.json",
+			"use": "@vercel/node"
 		}
 	]
 }
