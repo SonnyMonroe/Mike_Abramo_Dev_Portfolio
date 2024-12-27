@@ -1,6 +1,7 @@
 <script>
 	import Step from './Step.svelte';
 	import VideoCards from './VideoCards.svelte';
+	import Table from './Table.svelte';
 
 	let steps = [
 		{
@@ -173,65 +174,24 @@
 				</div>
 			{/each}
 		</div>
-
-		<h5 class={' text-2xl sm:text-3xl font-semibold text-center poppins '}>
+		<!-- <h1 class={' text-2xl sm:text-3xl font-semibold text-center poppins '}>
 			The <span class="text-violet-400">Complete</span> Package
-		</h5>
-		<div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
-			<table class="bg-white text-slate-700 rounded text-center">
-				<thead class={'border-b border-solid border-slate-200  '}>
-					<tr class="">
-						<th />
-						<th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-						<th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-						<th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-						<th class="bg-violet-700 text-white whitespace-nowrap p-4 px-8">Me</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="border-b border-solid border-slate-200">
-						<td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-							>Dedication</td
-						>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
-					</tr>
-					<tr class="border-b border-solid border-slate-200">
-						<td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-							>Critical Thought</td
-						>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
-					</tr>
-					<tr>
-						<td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-							>Interpersonal Skills</td
-						>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
-					</tr>
-					<tr class="border-t border-solid border-slate-200">
-						<td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-							>Programming Ability</td
-						>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-xmark text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-slate-500" /></td>
-						<td><i class="fa-solid fa-check text-green-500" /></td>
-					</tr>
-				</tbody>
-			</table>
+		</h1> -->
+		<div
+			class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+		>
+			<h6 class="text-large sm:text-xl md:text-2xl">My</h6>
+			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+				Developer <span class="poppins text-violet-400">Tool</span> box.
+			</h3>
+		</div>
+		<div class="flex flex-col overflow-x-scroll gap-10 max-w-[900px] mx-auto w-full">
+			<!-- <table class="bg-#617184 text-slate-700 rounded text-center" /> -->
+			<Table />
 		</div>
 		<div class="mx-auto -mt-12 italic sm:hidden opacity-50">
 			<p>Scroll to see more &rarr;</p>
 		</div>
-		<br />
 		<br />
 		<VideoCards />
 	</section>
