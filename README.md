@@ -1,8 +1,14 @@
 # My Svelte Portfolio Site
 
+<tr>
+
 ![Svelte Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0coQ0GhdVXUNpVRhyOxqlyr_TKNJTjP_tzg&s)
 
-[![Before you fork it, see the website in action here](https://youtu.be/7LNoe5A2imE)](https://youtu.be/7LNoe5A2imE?si=X5AllXV1-q__SGBT)
+<tr/>
+
+<tr>
+ ![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
+<tr/>
 
 ## Overview
 
@@ -13,16 +19,9 @@ This project is a personal portfolio site built with Svelte. It includes a respo
 Visit the live site: mike-abramo.vercel.app
 
 - [Website](https://mike-abramo.vercel.app/)
-- [Svelte Portfolio Site Video](https://youtu.be/7LNoe5A2imE)
-  [Watch the video]?!(https://img.youtube.com/vi/7LNoe5A2imE/0.jpg)
+  Visit the live site: mike-abramo.vercel.app
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7LNoe5A2imE?si=58Nl-1esXsA8NVg7&amp;controls=0" frameborder="0" allowfullscreen></iframe>
-
-![alt text](image.png)
-
-![Watch the video(https://img.youtube.com/vi/7LNoe5A2imE/0.jpg)(https://youtu.be/7LNoe5A2imE)]
-
-[Watch the video(https://img.youtube.com/vi/7LNoe5A2imE/0.jpg)(https://youtu.be/7LNoe5A2imE)]
+![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
 
 ## Technologies Used
 
