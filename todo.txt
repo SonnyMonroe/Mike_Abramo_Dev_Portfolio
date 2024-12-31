@@ -2,15 +2,15 @@
 
 - [x] Deploy Site on Vercel
 - [x] Change Content Writing to be personalized
-- [ ] Make Video for Demo
+- [x] Make Video for Demo
 - [x] Make Footer more stylish
 - [ ] Make Header better--->
-- [ ] Write Documentation--->
+- [x] Write Documentation--->
 - [x] Add Lightning Bounties Content / Assets
 - [ ] Add Bounty on Things I need Help On
 - [x] Add Deign Assets
 - [x] Change Projects Section
-- [ ] Credit https://github.com/jamezmca
+- [x] Credit https://github.com/jamezmca
 - [x] Get Better Profile Image Main
 - [x] Add Section Where I was mentioned: startup day, hackathons, lightning bounties
 - [ ] Make Resume Video < 3mins
