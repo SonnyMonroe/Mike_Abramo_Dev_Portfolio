@@ -17,7 +17,7 @@
 - [x] Add Typing effects for "I am Mike Abramo", "I am...." then make it switch from Co-founder, blockchain developer, ...
 - [x] Change name of Repo to make it represent my portfolio
 - [x] Change File path in local machine, make it easier to find
-- [ ] Update Aspecta ID profile
+- [x] Update Aspecta ID profile
 - [x] Fix Hamburger Menu
 - [ ] Fix Footer Alignment
 - [ ] Fix Slow Render Speeds Scores 81, 86, 96 82 -->
