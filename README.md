@@ -1,25 +1,5 @@
 # My Svelte Portfolio Site
 
-| # My Svelte Portfolio Site | ![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif) |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-![Svelte Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0coQ0GhdVXUNpVRhyOxqlyr_TKNJTjP_tzg&s)
-
-![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
-
-      </td>
-
-   </tr>
-</table>
-
-![Svelte Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0coQ0GhdVXUNpVRhyOxqlyr_TKNJTjP_tzg&s)
-
-![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
-
-<tr/>
-
-# My Svelte Portfolio Site
-
 ## Overview
 
 This project is a personal portfolio site built with Svelte. It includes a responsive header with a hamburger menu, a stylish footer, and various components such as a table and video cards. The application is styled using TailwindCSS and includes FontAwesome icons.
