@@ -1,14 +1,24 @@
 # My Svelte Portfolio Site
 
-<tr>
+| # My Svelte Portfolio Site | ![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif) |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ![Svelte Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0coQ0GhdVXUNpVRhyOxqlyr_TKNJTjP_tzg&s)
 
+![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
+
+      </td>
+
+   </tr>
+</table>
+
+![Svelte Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0coQ0GhdVXUNpVRhyOxqlyr_TKNJTjP_tzg&s)
+
+![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
+
 <tr/>
 
-<tr>
- ![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
-<tr/>
+# My Svelte Portfolio Site
 
 ## Overview
 
@@ -16,26 +26,16 @@ This project is a personal portfolio site built with Svelte. It includes a respo
 
 ## Live Demo
 
-Visit the live site: mike-abramo.vercel.app
-
-- [Website](https://mike-abramo.vercel.app/)
-  Visit the live site: mike-abramo.vercel.app
+**Visit the live website: 👉 [here](https://mike-abramo.vercel.app/)**
 
 ![Live Demo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDBybnp1M3RwcHQxMGNvanR6MDBxcjRjMXh6aXp3YTJhbzlrcDZmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ydbfIPpFwopMHALOgQ/giphy.gif)
-
-## Technologies Used
-
-Frontend Framework: SvelteKit
-Styling: Tailwind CSS
-Deployment: Vercel
-Build Tool: Vite
 
 ## Installation
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/SonnyMonroe/Mike_Abramo_Dev_Portfolio
    ```
 
 2. Navigate to the project directory:
@@ -62,11 +62,10 @@ Build Tool: Vite
 
 ## Tech Stack
 
-- **SvelteKit**: A component framework for building web applications.
-- **TailwindCSS**: A utility-first CSS framework for styling.
-- **FontAwesome**: A library for scalable vector icons.
-- **Vite**: A build tool that provides a fast development server and optimized builds.
-- **Vercel**: Deployment
+- **Frontend Framework:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" height="20" width="25" alt="svelte logo" > **SvelteKit**
+- **Styling:** <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="20" width="25" alt="tailwindcss logo"  /> **TailwindCSS**
+- **Deployment:** <img src="https://skillicons.dev/icons?i=vercel" height="20" width="25" alt="vercel logo"  /> **Vercel**
+- **Build Tool:** <img src="https://skillicons.dev/icons?i=vite" height="20" width="25" alt="vite logo"  /> **Vite**
 
 ## Features
 
