@@ -25,5 +25,6 @@
 - [x] Replace Table With Something Better
   - [x] Maybe Do Teck Stack/Tools I Like to Use
 - [ ] Make Form to Contact me
-- [ ] Sept 2025 Make sure Node 18 is Node 22
+- [x] Sept 2025 Make sure Node 18 is Node 22
+- [ ] Update YT embeds with lazy loading
 - [ ]
